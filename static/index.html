@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!-- Header contains metadata such as page title and linking information -->
+<html lang="en">
+	<head>
+		<title>ReleaseScraper</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            function getVideogames() {  
+            $.ajax({
+            url: "/getvideogames",
+            success: function(result) {
+                console.log("received result: " + result);
+                $.each(JSON.parse(result), function(index, item){
+                    $("#mainpageheaderrow").after("<tr><td>" + item.title +
+                    "</td><td>" + item.publisher +
+                    "</td><td>" + item.mediatype +
+                    "</td><td>" + item.releasedate +
+                    "</td></tr>"
+                ); 
+                });
+            }
+            });
+        }
+        </script>
+	</head>
+	<!--Body contains the actual content of the page -->
+	<body onload="getVideogames()">
+    <!--Navigation bar contains links to the rest of the site-->
+		<div class="navbar">
+      <form action="/">
+        <input type="submit" class="homepagelink" value="Release Scraper"/>
+      </form>
+      <form action="/">
+        <input type="submit" class="navlink" value="Video Games"/>
+      </form>
+      <form action="/">
+        <input type="submit" class="navlink" value="Movies"/>
+      </form>
+      <form action="/">
+        <input type="submit" class="navlink" value="Television"/>
+      </form>
+      <form action="/contact">
+        <input type="submit" class="navlink" value="Contact Us"/>
+      </form>
+      <form action="/about">
+        <input type="submit" class="navlink" value="About"/>
+      </form>
+      <form action="/">
+        <input type="submit" class="login" value="Log In"/>
+      </form>
+      
+    </div>
+    <div>
+      <!--Table contains media chosen by the user- should be dynamically created-->
+      <table>
+        <!--Each table row contains headers or cells, which themeselves contain other content-->
+        <tr class="headerrow" id="mainpageheaderrow">
+          <th>Title</th>
+          <th>Publisher</th>
+          <th>Media Type</th>
+          <th>Release Date</th>
+        </tr>
+        <!--Empty row left for spacing purposes-->
+        <tr class="emptyrow">
+          <td><br></td>
+        </tr>
+      </table>
+    </div>
+    <!--Footer contains copyright information-->
+    <footer>ReleaseScraper ©Matthew Wells 2022</footer>
+	</body>
+</html>

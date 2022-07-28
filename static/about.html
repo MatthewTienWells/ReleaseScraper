@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!-- Header contains metadata such as page title and linking information -->
+<html lang="en">
+	<head>
+		<title>About Us</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<!--Body contains the actual content of the page -->
+	<body>
+    <!--Navigation bar contains links to the rest of the site-->
+	<div class="navbar">
+        <form action="/">
+          <input type="submit" class="homepagelink" value="Release Scraper"/>
+        </form>
+        <form action="/">
+          <input type="submit" class="navlink" value="Video Games"/>
+        </form>
+        <form action="/">
+          <input type="submit" class="navlink" value="Movies"/>
+        </form>
+        <form action="/">
+          <input type="submit" class="navlink" value="Television"/>
+        </form>
+        <form action="/contact">
+          <input type="submit" class="navlink" value="Contact Us"/>
+        </form>
+        <form action="/about">
+            <input type="submit" class="navlink" value="About"/>
+          </form>
+        <form action="/">
+          <input type="submit" class="login" value="Log In"/>
+        </form>
+      </div>
+    <!--About information listed in paragraphs with a header-->
+    <div class="aboutusblock">
+      <h1>About ReleaseScraper</h1>
+      <p>ReleaseScraper is a website for scraping publicly available information about major media releases and gathering it in one place.</p>
+      <p>Information is gathered from publishers' websites using Selenium and Python's BeautifulSoup and Requests libraries.</p>
+      <p>Once it's gathered, we display it here, for you!</p>
+      <p>This website also runs on Python- the Flask library lets us run html/css in Python!</p>
+      <p>Background image is a free image by Anete Lusina.</p>
+    </div>
+    <!--Footer contains copyright information-->
+    <footer>ReleaseScraper ©Matthew Wells 2022</footer>
+	</body>
+</html>

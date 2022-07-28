@@ -1,0 +1,59 @@
+1658126190065	geckodriver	INFO	Listening on 127.0.0.1:53717
+1658126193133	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "53718" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wells\\AppData\\Local\\Temp\\rust_mozprofileyRQJyM"
+*** You are running in headless mode.
+1658126193519	Marionette	INFO	Marionette enabled
+1658126193523	Marionette	INFO	Listening on port 53729
+WebDriver BiDi listening on ws://localhost:53718
+Read port: 53729
+1658126193699	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\wells\\AppData\\Local\\Temp\\rust_mozprofileyRQJyM\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53718/devtools/browser/99fcd9f6-f76a-4dc1-8a7b-0868ae8f3869
+1658126217679	geckodriver	INFO	Listening on 127.0.0.1:53804
+1658126220729	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "53805" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wells\\AppData\\Local\\Temp\\rust_mozprofileruYqze"
+*** You are running in headless mode.
+1658126220958	Marionette	INFO	Marionette enabled
+1658126220961	Marionette	INFO	Listening on port 53820
+WebDriver BiDi listening on ws://localhost:53805
+Read port: 53820
+1658126221129	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\wells\\AppData\\Local\\Temp\\rust_mozprofileruYqze\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53805/devtools/browser/94081fef-cc43-4c60-97ac-c02bd9a1657f
+JavaScript warning: https://assets.adobedtm.com/0216612597a6/b80235efd36c/launch-9d979f097026.min.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://10059137.fls.doubleclick.net/ddm/fls/r/src=10059137;type=pagev0;cat=2020_00;ord=9176743659755;gtm=2wg7d0;auiddc=998487723.1658126239;~oref=https%3A%2F%2Fwww.nintendo.com%2Fstore%2Fgames%2Fcoming-soon%2F, line 4: SyntaxError: unexpected token: numeric literal
+JavaScript error: https://10059137.fls.doubleclick.net/ddm/fls/r/src=10059137;type=pagev0;cat=2020_00;ord=9176743659755;gtm=2wg7d0;auiddc=998487723.1658126239;~oref=https%3A%2F%2Fwww.nintendo.com%2Fstore%2Fgames%2Fcoming-soon%2F, line 36: ReferenceError: gtag is not defined
+1658127726447	geckodriver	INFO	Listening on 127.0.0.1:62109
+1658127729481	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "62110" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wells\\AppData\\Local\\Temp\\rust_mozprofileSJD7EY"
+*** You are running in headless mode.
+1658127729807	Marionette	INFO	Marionette enabled
+1658127729811	Marionette	INFO	Listening on port 62119
+WebDriver BiDi listening on ws://localhost:62110
+Read port: 62119
+1658127729896	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\wells\\AppData\\Local\\Temp\\rust_mozprofileSJD7EY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62110/devtools/browser/f9fe623c-a478-40c3-8ad0-a17e7d1a0947
+JavaScript warning: https://assets.adobedtm.com/0216612597a6/b80235efd36c/launch-9d979f097026.min.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://10059137.fls.doubleclick.net/ddm/fls/r/src=10059137;type=pagev0;cat=2020_00;ord=4083400658621;gtm=2wg7d0;auiddc=1108435032.1658127769;~oref=https%3A%2F%2Fwww.nintendo.com%2Fstore%2Fgames%2Fcoming-soon%2F, line 4: SyntaxError: unexpected token: numeric literal
+JavaScript error: https://10059137.fls.doubleclick.net/ddm/fls/r/src=10059137;type=pagev0;cat=2020_00;ord=4083400658621;gtm=2wg7d0;auiddc=1108435032.1658127769;~oref=https%3A%2F%2Fwww.nintendo.com%2Fstore%2Fgames%2Fcoming-soon%2F, line 36: ReferenceError: gtag is not defined
+JavaScript warning: https://assets.adobedtm.com/0216612597a6/b80235efd36c/launch-9d979f097026.min.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://10059137.fls.doubleclick.net/activityi;src=10059137;type=pagev0;cat=2020_00;ord=9100713865882;gtm=2wg7d0;auiddc=1108435032.1658127769;~oref=https%3A%2F%2Fwww.nintendo.com%2Fstore%2Fgames%2Fcoming-soon%2F?, line 4: SyntaxError: unexpected token: numeric literal
+JavaScript error: https://10059137.fls.doubleclick.net/activityi;src=10059137;type=pagev0;cat=2020_00;ord=9100713865882;gtm=2wg7d0;auiddc=1108435032.1658127769;~oref=https%3A%2F%2Fwww.nintendo.com%2Fstore%2Fgames%2Fcoming-soon%2F?, line 36: ReferenceError: gtag is not defined
+1659034790838	geckodriver	INFO	Listening on 127.0.0.1:62225
+1659034793892	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "62226" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wells\\AppData\\Local\\Temp\\rust_mozprofile08XTtr"
+*** You are running in headless mode.
+1659034841354	geckodriver	INFO	Listening on 127.0.0.1:62273
+1659034844441	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--remote-debugging-port" "62274" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\wells\\AppData\\Local\\Temp\\rust_mozprofileYivA5m"
+*** You are running in headless mode.
+1659034844688	Marionette	INFO	Marionette enabled
+1659034844691	Marionette	INFO	Listening on port 62283
+WebDriver BiDi listening on ws://localhost:62274
+Read port: 62283
+1659034844860	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\wells\\AppData\\Local\\Temp\\rust_mozprofileYivA5m\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62274/devtools/browser/d36c8d8f-00cd-496c-a4de-2146ebf68a13
+JavaScript warning: https://assets.adobedtm.com/0216612597a6/b80235efd36c/launch-9d979f097026.min.js, line 3: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://10059137.fls.doubleclick.net/ddm/fls/r/src=10059137;type=pagev0;cat=2020_00;ord=7333913101733;gtm=2wg7p0;auiddc=166273079.1659034858;~oref=https%3A%2F%2Fwww.nintendo.com%2Fstore%2Fgames%2Fcoming-soon%2F, line 4: SyntaxError: unexpected token: numeric literal
+JavaScript error: https://10059137.fls.doubleclick.net/ddm/fls/r/src=10059137;type=pagev0;cat=2020_00;ord=7333913101733;gtm=2wg7p0;auiddc=166273079.1659034858;~oref=https%3A%2F%2Fwww.nintendo.com%2Fstore%2Fgames%2Fcoming-soon%2F, line 36: ReferenceError: gtag is not defined

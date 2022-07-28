@@ -1,0 +1,71 @@
+body {
+  background-image: url("./assets/pexels-anete-lusina-5239919.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-direction: row;
+  padding-bottom: 10px;
+}
+
+.navlink {
+  width: 100% !important;
+}
+
+.homepagelink {
+  width: 100% !important;
+  color: orange;
+}
+
+.login {
+  width: 100% !important
+}
+
+table {
+  background-color: skyblue;
+  display: "flexbox";
+  justifyContent: "top";
+  width: 100%;
+  height: 85%;
+}
+
+th {
+  border-color: black;
+  border-width: thin;
+  border-style: solid;
+  vertical-align: top;
+}
+
+td {
+  border-color: black;
+  border-width: thin;
+  border-style: solid;
+}
+
+.headerrow {
+
+}
+
+.emptyrow {
+  height: 90% !important;
+}
+
+.emptyrow > td {
+  border: none;
+}
+
+.aboutusblock {
+  background-color: skyblue;
+  border-color: skyblue;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.contact {
+  font-family: sans-serif, Arial, Helvetica;
+  background-color: white;
+}
